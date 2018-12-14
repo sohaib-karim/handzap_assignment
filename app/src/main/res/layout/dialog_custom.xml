@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dialog_horizontal_margin"
+        android:layout_marginLeft="@dimen/dialog_horizontal_margin"
+        android:layout_marginTop="@dimen/margin_top"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black_87"
+        android:textSize="@dimen/text_size_16"
+        android:textStyle="normal" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginStart="@dimen/dialog_horizontal_margin"
+        android:layout_marginLeft="@dimen/dialog_horizontal_margin"
+        android:layout_marginTop="@dimen/dialog_margin_top"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/bright_blue"
+            android:fontFamily="sans-serif"
+            android:paddingStart="@dimen/padding_7"
+            android:paddingLeft="@dimen/padding_7"
+            android:textColor="@color/black_87"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="normal"
+            app:buttonTint="@color/bright_blue" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_10"
+            android:backgroundTint="@color/bright_blue"
+            android:fontFamily="sans-serif"
+            android:paddingStart="@dimen/padding_7"
+            android:paddingLeft="@dimen/padding_7"
+            android:textColor="@color/black_87"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="normal"
+            app:buttonTint="@color/bright_blue" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_10"
+            android:backgroundTint="@color/bright_blue"
+            android:fontFamily="sans-serif"
+            android:paddingStart="@dimen/padding_7"
+            android:paddingLeft="@dimen/padding_7"
+            android:textColor="@color/black_87"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="normal"
+            app:buttonTint="@color/bright_blue" />
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/hr"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/radio_group"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="#d8d8d8" />
+
+    <TextView
+        android:id="@+id/btn_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hr"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/margin_top"
+        android:layout_marginRight="@dimen/margin_top"
+        android:layout_marginBottom="@dimen/margin_top"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:fontFamily="sans-serif-medium"
+        android:padding="@dimen/padding_2"
+        android:text="@string/btn_accept"
+        android:textAllCaps="true"
+        android:textColor="@drawable/txt_selector"
+        android:textSize="@dimen/text_size_14"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:id="@+id/btn_deny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hr"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/margin_top"
+        android:layout_marginRight="@dimen/margin_top"
+        android:layout_marginBottom="@dimen/margin_top"
+        android:layout_toLeftOf="@+id/btn_select"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:fontFamily="sans-serif-medium"
+        android:padding="@dimen/padding_2"
+        android:text="@string/btn_cancel"
+        android:textAllCaps="true"
+        android:textColor="@drawable/txt_selector"
+        android:textSize="@dimen/text_size_14"
+        android:textStyle="normal" />
+
+</RelativeLayout>

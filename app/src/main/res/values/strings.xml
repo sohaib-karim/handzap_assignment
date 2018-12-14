@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Handzap</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="indian_currency_code">INR</string>
+    <string name="indian_currency_name">India Rupee</string>
+
+    <string name="post">Post</string>
+    <string name="select">Select</string>
+    
+    <string name="title_new_post">New Post</string>
+    <string name="title_setting_location">Setting Location</string>
+    
+    <string name="hint_post_title">Post Title</string>
+    <string name="hint_post_description">Post Description</string>
+    <string name="hint_post_categories">Post Categories</string>
+    <string name="hint_post_budget">Budget</string>
+    <string name="hint_post_currency">INR</string>
+    <string name="hint_post_rate">Rate</string>
+    <string name="hint_post_payment_method">Payment Method</string>
+    <string name="hint_post_location">Post Location</string>
+    <string name="hint_post_start_date">Start Date</string>
+    <string name="hint_post_job_term">Job Term</string>
+
+    <string name="txt_post_attachments">Post Attachments</string>
+
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_accept">Select</string>
+    
+    <string name="payment_method_title">Payment Method</string>
+    <string name="payment_method_no_pref">No Preference</string>
+    <string name="payment_method_e_payment">E-Payment</string>
+    <string name="payment_method_cash">Cash</string>
+
+
+    <string name="rate_title">Payment Method</string>
+    <string name="rate_no_pref">No Preference</string>
+    <string name="rate_fixed_budget">Fixed Budget</string>
+    <string name="rate_hourly_rate">Hourly Rate</string>
+
+    <string name="job_term_title">Job Term</string>
+    <string name="job_term_rec_job">Recurring Job</string>
+    <string name="job_term_same_d_job">Same Day Job</string>
+    <string name="job_term_multi_d_job">Multi Day Job</string>
+    
+    <string name="bottom_menu_capture_image">Capture Image</string>
+    <string name="bottom_menu_capture_video">Capture Video</string>
+    <string name="bottom_menu_library">Photo &amp; Video Library </string>
+    <string name="bottom_menu_capture_document">Document</string>
+
+    <string name="text_character_count">%1$d characters left</string>
+</resources>
